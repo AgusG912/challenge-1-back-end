@@ -1,0 +1,12 @@
+# Ignorar dependencias de npm
+node_modules
+
+# Archivos de entorno
+.env
+
+# Ignorar lo generado por el docker compose
+postgres/
+
+# Ignorar configuración de IDEs
+.vscode/
+.idea/
