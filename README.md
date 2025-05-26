@@ -1,7 +1,20 @@
 # 🚀 Proyecto Challenge 1 - E-commerce Backend
 
-## 📌 Descripción
 Este proyecto corresponde al backend de una aplicación de e-commerce, diseñado para gestionar la autenticación, validaciones y conexión con la base de datos PostgreSQL utilizando Prisma ORM. Construido con Express, permite una comunicación eficiente con el frontend y la API externa Marketplace-API.
+
+<details>
+
+<summary> 📍 Este repositorio forma parte de un grupo.</summary>
+
+<br/>
+
+ > [Frontend](https://github.com/AgusG912/challenge-1-front-end)
+
+ > **📌 Backend**
+
+ > [Marketplace](https://github.com/AgusG912/challenge-1-marketplace-api)
+
+</details>
 
 ## 🛠 Características principales
 - ✅ `Framework Express` → Backend ligero y escalable.
@@ -64,8 +77,8 @@ Este proyecto corresponde al backend de una aplicación de e-commerce, diseñado
 
 - Crear base de datos con `Docker` [✅].
 
-```
-    docker componse up -d
+``` docker
+    docker compose up -d
 ```
 
 - Crear base de datos con `Postgresql` [ALTERNATIVA].
@@ -81,8 +94,7 @@ Este proyecto corresponde al backend de una aplicación de e-commerce, diseñado
     POSTGRES_DB=[contoso_db]
     POSTGRES_PASSWORD=[123456]
 
-    📌 Si PostgreSQL no está en localhost, usa la IP de tu servidor
-.
+    📌 Si PostgreSQL no está en localhost, usa la IP de tu servidor.
 ```
 
 - Crear las migraciones de la base de datos, generar el cliente `ORM` y ejecutar el seed [🌱].
